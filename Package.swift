@@ -27,9 +27,9 @@ let package = Package(
             name: "CredentialsGoogle",
             targets: ["CredentialsGoogle"]
         )
-    ],    
+    ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/Kitura-Credentials.git", from: "2.4.0"),
+        .package(url: "https://github.com/KituraKommunity/Kitura-Credentials.git", from: "2.5.100"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
